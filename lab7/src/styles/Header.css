@@ -1,0 +1,51 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: limegreen;
+    color: white;
+    padding: 15px 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.signout-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    padding: 8px 16px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  .signout-btn:hover {
+    background: #c82333;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
